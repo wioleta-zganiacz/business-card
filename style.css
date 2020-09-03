@@ -24,7 +24,7 @@ body {
 }
 
 .person {
-
+display: flex;
 }
 
 .person__description {
@@ -51,6 +51,10 @@ margin-bottom: 22px;
     font-size: 36px;
     margin: 0;
     font-weight: normal;
+}
+
+.person__picture {
+    margin-right: 32px;
 }
 
 .person__position {

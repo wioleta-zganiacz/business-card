@@ -1,35 +1,39 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wizytówka</title>
     <link href="normalize.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <main class="main">
-      <article clas="person">
-        <img
-          class="person__picture"
-          src="avatar.png"
-          alt="zdjecie Imie i nazwisko"
-        />
-        <header class="person__info">
-          <h1 class="person__name">Imię i nazwisko</h1>
-          <p class="person__position">stanowisko</p>
-        </header>
-        <p class="person__description person__description--with-margin">
-          Programista z
-          <strong class="special">kilkunastoletnim doświadczeniem</strong>,
-          fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko
-          z Lego), <strong class="special">prelegent i szkoleniowiec</strong>.
-          Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
-          ocierając się o sztukę.
-        </p>
-        <p class="person__description">
-            W sieci: <a class="person__link" href="#">Facebook</a>, <a class="person__link" href="#">GitHub</a>, <a class="person__link" href="#">Instagram.</a></p>
-      </article>
+        <article class="person">
+            <img class="person__picture" src="avatar.png" alt="zdjecie Imie i nazwisko" />
+            <div>
+                <header class="person__info">
+                    <h1 class="person__name">Imię i nazwisko</h1>
+                    <p class="person__position">stanowisko</p>
+                </header>
+                <p class="person__description person__description--with-margin">
+                    Programista z
+                    <strong class="special">kilkunastoletnim doświadczeniem</strong>,
+                    fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko
+                    z Lego), <strong class="special">prelegent i szkoleniowiec</strong>.
+                    Uwielbia eksperymentować z nowymi technologiami, w swojej twórczości
+                    ocierając się o sztukę.
+                </p>
+                <p class="person__description">
+                    W sieci: <a class="person__link" href="#">Facebook</a>,
+                    <a class="person__link" href="#">GitHub</a>,
+                    <a class="person__link" href="#">Instagram.</a>
+                </p>
+        </article>
+        </div>
     </main>
-  </body>
+</body>
+
 </html>
