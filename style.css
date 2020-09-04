@@ -29,12 +29,14 @@ display: flex;
 
 .person__description {
     font-size: 16px;
+    font-family: 'Kumbh Sans';
     line-height: 22px;
     margin: 0;
 
 }
 .person__description--with-margin {
 margin-bottom: 22px;
+
 }
 
 
@@ -43,23 +45,31 @@ margin-bottom: 22px;
 }
 
 .person__link {
-    color: #E20613;
+    color: darkmagenta;
     text-decoration: none;
 }
 
 .person__name {
     font-size: 36px;
+    font-family: 'Lobster';
     margin: 0;
     font-weight: normal;
+
 }
 
 .person__picture {
+    border:1px solid darkmagenta;
     margin-right: 32px;
+    margin-top: 20px;
+    height: 210px;
+    width: 150px;
+
 }
 
 .person__position {
     font-size: 18px;
-    color: #545454;
+    font-family: 'Lobster';
+    color: darkmagenta;
     margin: 0;
     font-style: italic;
 }
